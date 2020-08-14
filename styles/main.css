@@ -208,14 +208,15 @@ footer {
     /* flex-grow: 2; */
 }
 .landmarks-pic {
-    width: 100%;
-    height: 100%;
+    width: 50px;
+    height: 50px;
+    transition: width .5s, height .5s;
 }
-/* .landmarks-pic:hover {
+.landmarks-pic:hover {
     width: 75px;
     height: 75px;
     
-} */
+}
 .map-pic {
     width: 50px;
     height: 50px;
@@ -235,12 +236,7 @@ footer {
 figure {
     width: 100px;
     height: 100px;
-    transition: width 1s, height 1s;
     font-size: .25em;
-}
-figure:hover {
-    width: 125px;
-    height: 125px;
 }
 figcaption {
     position: absolute;
