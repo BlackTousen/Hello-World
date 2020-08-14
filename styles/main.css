@@ -44,10 +44,10 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 200px;
     text-align: center;
-    position: relative;
+    /* position: absolute; */
     /* background-color: bisque; */
+    font-size: 5vw;
 
 }
 .bannerText {
@@ -163,19 +163,28 @@ footer {
 }
 .citiesSection {
     text-align: center;
-    border: black 2px double;
+    border: brown 2px double;
     padding-bottom: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: brown;
 }
 .cities {
-    display: inline;
-    /* text-align: center; */
+    list-style: none;
+    /* display:inline; */
+    /* background-color: bisque; */
+    /* border: black 2px solid; */
 }
-.cities li { 
+.cities li {
     display: inline;
-    /* text-align: center; */
+    margin: 5%;
+    font-weight: bold;
+ /* background-color: bisque; */
+
 }
+/* .cities li:hover {
+
+} */
 .famousPeeps {
     flex-basis: 33%;
     border: dotted red 1px;
@@ -219,9 +228,9 @@ footer {
 }
 .flagText {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 42px;
-    padding-top: 125px;
+    /* font-size: 42px; */
+    
 }
