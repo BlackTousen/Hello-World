@@ -189,8 +189,8 @@ footer {
 
 } */
 .flagBanner {
-    width: 50%;
-    height: 500px;
+    max-width: 50%;
+    max-height: 500px;
 }
 .flagText {
     position: absolute;
@@ -198,5 +198,5 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 42px;
-    padding-top: 120px;
+     padding-top: 250px;
 }
