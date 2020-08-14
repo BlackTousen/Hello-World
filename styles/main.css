@@ -199,6 +199,8 @@ footer {
 }
 
 .landmarks {
+    display: flex;
+    flex-wrap: wrap;
     flex-basis: 66%;
     text-align: center;
     border: dotted red 1px;
@@ -206,9 +208,14 @@ footer {
     /* flex-grow: 2; */
 }
 .landmarks-pic {
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
 }
+/* .landmarks-pic:hover {
+    width: 75px;
+    height: 75px;
+    
+} */
 .map-pic {
     width: 50px;
     height: 50px;
@@ -224,4 +231,17 @@ footer {
     transform: translate(-50%, -50%);
     font-size: 42px;
     padding-top: 125px;
+}
+figure {
+    width: 100px;
+    height: 100px;
+    transition: width 1s, height 1s;
+    font-size: .25em;
+}
+figure:hover {
+    width: 125px;
+    height: 125px;
+}
+figcaption {
+    position: absolute;
 }
