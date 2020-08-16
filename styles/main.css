@@ -153,13 +153,14 @@ footer {
 .navItemActiveThailand  {
     background-color: #e7e7e7
 }
+
 .bottomFlex {
-    display: flex;
-    justify-content: space-around;
+    display: table;
+    width: 100%
 }
 .topFlex {
-    display: flex;
-    justify-content: space-around;
+    display:table;
+    width: 100%;
 }
 .citiesSection {
     text-align: center;
@@ -170,29 +171,32 @@ footer {
 }
 .cities {
     display: inline;
-    /* text-align: center; */
+    text-align: center;
 }
 .cities li { 
     display: inline;
-    /* text-align: center; */
+    text-align: center;
 }
 .famousPeeps {
-    flex-basis: 33%;
+    display: table-cell;
+    width: 33%;
     border: dotted red 1px;
     text-align: center;
     /* flex-grow: 1; */
 }
 
 .funFacts {
-    flex-basis: 66%;
+    display: table-cell;
+    width: 66%;
     text-align: center;
     border: dotted red 1px;
     
     /* flex-grow: 2; */
 }
 .map {
-    
-    flex-basis: 33%;
+    display: table-cell;
+    border: 1px dotted red;
+    width: 33%;
     border: dotted red 1px;
     text-align: center;
     /* flex-grow: 1; */
