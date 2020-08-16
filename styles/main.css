@@ -162,12 +162,13 @@ footer {
     justify-content: space-around;
 }
 .citiesSection {
+    /* width: 100%; */
     text-align: center;
-    border: brown 2px double;
+    border: #2b3a67 2px double;
     padding-bottom: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: brown;
+    background-color: #2b3a67;
 }
 .cities {
     list-style: none;
