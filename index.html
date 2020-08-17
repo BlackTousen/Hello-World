@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lúcuma Travel Service</title>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/newzealand.css">
 </head>
 
 <body class="background">
@@ -17,15 +19,17 @@
                 <div id="logo">
                     <img src="images/lucuma-logo-200x200.png" alt="Lúcuma Logo" class="logo">
                 </div>
-                <h1>Lúcuma Travel Service: Just Explore</h1>
+                <div>
+                    <h1>Lúcuma Travel Service: Just Explore</h1>
+                </div>
                 <!-- <div class="navDiv"> -->
                     <nav class="navDiv">
                         <ul class="nav">
-                            <li>Places We Offer:</li>
-                            <li class="button button1 navItemActiveIndex"><a href="index.html">Chile</a></li>
-                            <li class="button button2"><a href="japan.html">Japan</a></li>
-                            <li class="button button3"><a href="newzealand.html">New Zealand</a></li>
-                            <li class="button button4"><a href="thailand.html">Thailand</a></li>
+                            <!-- <li>Places We Offer:</li> -->
+                            <li><button onclick="location.href='index.html'" type=button class="button button1 navItemActiveIndex">Chile</button></li>
+                            <li><button onclick="location.href='japan.html'" type="button" class="button button2">Japan</button></li>
+                            <li><button onclick="location.href='newzealand.html'" type="button" class="button button3">New Zealand</button></li>
+                            <li><button onclick="location.href='thailand.html'" type="button" class="button button4">Thailand</button></li>
                         </ul>
                     </nav>
                 <!-- </div> -->
@@ -43,27 +47,27 @@
                 <h3>Landmarks</h3>
                 <figure>
                     <img src="images/torres-del-paine-national-park.jpg" alt="Spire like mountains in Torres Del Paine National Park" class="landmarks-pic">
-                    <figcaption>Torres Del Paine National Park, Magallanes y la Antártica Chilena Region </figcaption>
+                    <figcaption>Torres Del Paine National Park</figcaption>
                 </figure>    
                 <figure>
                     <img src="images/valle-de-la-luna-atacama-desert.jpg" alt="Valle de la Luna and the Atacama Desert with a small smattering of people walking" class="landmarks-pic">
-                    <figcaption>Valle de la Luna and the Atacama Desert, San Pedro de Atacama, Antofagasta Region</figcaption>
+                    <figcaption>Valle de la Luna and the Atacama Desert</figcaption>
                 </figure>
                 <figure>
                     <img src="images/easter-island.jpg" alt="Easter Island with 15 statues" class="landmarks-pic">
-                    <figcaption>Easter Island & Rapa Nui National Park, Easter Island, Valparaiso Region</figcaption>
+                    <figcaption>Easter Island & Rapa Nui National Park</figcaption>
                 </figure>
                 <figure>
                     <img src="images/lake-district.jpg" alt="A sprawling view of the mountains and lakes of the Chilean Lake District" class="landmarks-pic">
-                    <figcaption>The Chilean Lake District, Temuco to Puerto Montt</figcaption>
+                    <figcaption>The Chilean Lake District</figcaption>
                 </figure>
                 <figure>
                     <img src="images/los-pinguinos-natural-monument.jpg" alt="Red and white building in distance with hundreds of penguins waddling about" class="landmarks-pic">
-                    <figcaption>Los Pingüinos Natural Monument, Punta Arenas, Magallanes y la Antártica Chilena Region</figcaption>
+                    <figcaption>Los Pingüinos Natural Monument</figcaption>
                 </figure>
                 <figure>
                     <img src="images/mylodon-cave-natural-monument.jpg" alt="Mylodon Cave with people for scale" class="landmarks-pic">
-                    <figcaption>Mylodon Cave Natural Monument, Natales, Región de Magallanes y de la Antártica Chilena</figcaption>
+                    <figcaption>Mylodon Cave Natural Monument</figcaption>
                 </figure>
                 
             </div>
@@ -76,12 +80,17 @@
         <section class="citiesSection">
             <h3>Cities of Interest</h3>
             <ul class="cities">
-                <li>Santiago 🇨🇱 </li>
-                <li>Valparaíso 🇨🇱 </li>
-                <li>Pucón 🇨🇱 </li>
-                <li>Castro 🇨🇱 </li>
-                <li>San Pedro de Atacama 🇨🇱 </li>
-                <li>Pichilemu</li>
+                <li>Santiago</li>
+                <!-- <li>🇨🇱</li> -->
+                <li>Valparaíso</li>
+                <!-- <li>🇨🇱</li> -->
+                <li>Pucón</li>
+                <!-- <li>🇨🇱</li> -->
+                <li>Castro</li>
+                <!-- <li>🇨🇱</li> -->
+                <li>San Pedro de Atacama</li>
+                <!-- <li>🇨🇱</li> -->
+                <!-- <li>Pichilemu</li> -->
             </ul>
         </section>
 
