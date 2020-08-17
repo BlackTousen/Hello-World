@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lúcuma Travel Service</title>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/thailand.css">
     <link rel="stylesheet" href="styles/newzealand.css">
+    <link rel="stylesheet" href="styles/japan.css">
     <link rel="stylesheet" href="styles/navbar.css">
 
 
@@ -16,22 +18,27 @@
 <body class="background">
     <main>
         <div class="header">
-            <header>
-            <div class="headerBar">
-                <img src="images/lucuma-logo-200x200.png" alt="Lúcuma Logo" class="logo">
-                <h1>Lúcuma Travel Service</h1>
-                <div class="navDiv">
-                    <nav>Places We Offer:
-                    <ul class="nav">
-                        <li class="button button1"><a href="index.html">Chile</a></li>
-                        <li class="button button2"><a href="japan.html">Japan</a></li>
-                        <li class="button button3"><a href="newzealand.html">New Zealand</a></li>
-                        <li class="button button4 navItemActiveThailand"><a href="thailand.html">Thailand</a></li>
-                    </ul>
-                </nav>
+            <!-- <header> -->
+            <!-- <div class="headerBar"> -->
+                <div id="logo">
+                    <img src="images/lucuma-logo-200x200.png" alt="Lúcuma Logo" class="logo">
                 </div>
-            </div>
-        </header>
+                <div>
+                    <h1>Lúcuma Travel Service: Just Explore</h1>
+                </div>
+                <!-- <div class="navDiv"> -->
+                    <nav class="navDiv">
+                        <ul class="nav">
+                            <!-- <li>Places We Offer:</li> -->
+                            <li><button onclick="location.href='index.html'" type=button class="button button1">Chile</button></li>
+                            <li><button onclick="location.href='japan.html'" type="button" class="button button2">Japan</button></li>
+                            <li><button onclick="location.href='newzealand.html'" type="button" class="button button3">New Zealand</button></li>
+                            <li><button onclick="location.href='thailand.html'" type="button" class="button button4 navItemActiveThailand">Thailand</button></li>
+                        </ul>
+                    </nav>
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- </header> -->
         </div>
         <div class="bannerDiv">
             <section class="banner">
@@ -46,6 +53,14 @@
             <figure>
                 <img src="images/wat-arun.jpg" alt="Wat Arun" class="landmarks-pic">
                 <figcaption>Wat Arun</figcaption>
+            </figure>
+            <figure>
+                <img src="images/emerald-lagoon.jpg" alt="The Emerald Lagoon" class="landmarks-pic">
+                <figcaption>The Emerald Lagoon</figcaption>
+            </figure>
+            <figure>
+                <img src="images/phimai-historical-park.jpg" alt="Phimai Historical Park" class="landmarks-pic">
+                <figcaption>Phimai Historical Park</figcaption>
             </figure>
             <figure>
                 <img src="images/wat-phra-kaew.jpg" alt="Wat Phra Kaew" class="landmarks-pic">
@@ -67,7 +82,7 @@
         </section>
 
         <section class="citiesSection">
-            <h3>Cities of Interest</h3>
+            <h4>Cities of Interest</h4>
             <ul class="cities">
                 <li>Bangkok</li>
                 <li>Ayutthaya</li>
@@ -80,7 +95,7 @@
 
         <section class="bottomFlex">
             <div class="famousPeeps">
-                <h4>Famous People</h4>
+                <h5>Famous People</h5>
                 <ul>
                     <li><a href="https://en.wikipedia.org/wiki/Buakaw_Banchamek"> Buakaw Banchamek</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Tony_Jaa"> Tatchakorn Yeerum</a></li>
@@ -91,7 +106,7 @@
                 </ul>
             </div>
             <div class="funFacts">
-                <h4>Fun Facts</h4>
+                <h5>Fun Facts</h5>
                 <ul>
                     <li>One-tenth of the entire population of Thailand lives in Bangkok.</li>
                     <li>The national flower of Thailand is the orchid and you can find over 1,500 orchid species here.</li>

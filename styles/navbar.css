@@ -7,7 +7,7 @@
     flex-direction: column; 
     background-color: #F6D4CB;
     border: double 1px black;
-    margin: ;
+    /* margin: ; */
     padding: 0;
     height: 20vh;
     width: auto;
@@ -72,7 +72,7 @@ h1 {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    height: ;
+    /* height: ; */
 }
 
 .button1:hover {

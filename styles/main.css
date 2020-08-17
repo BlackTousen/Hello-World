@@ -162,6 +162,15 @@ footer {
     display:table;
     width: 100%;
 }
+
+h3 {
+    font-family: Optima, sans-serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+
+
+}
+
 .citiesSection {
     /* width: 100%; */
     text-align: center;
@@ -184,17 +193,25 @@ footer {
     display: inline;
     margin: 5%;
     font-weight: bold;
+<<<<<<< HEAD
+ /* background-color: bisque; */
+    font-family: Optima, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+=======
  background-color: bisque;
 
     text-align: center;
 } */
+>>>>>>> 34c127bee11deff22f2b4fd93e1be93ec05051df
 /* .cities li:hover {
 
 } */
 .famousPeeps {
     display: table-cell;
     width: 30%;
-    border: dotted red 1px;
     text-align: center;
     /* flex-grow: 1; */
 }
@@ -202,18 +219,15 @@ footer {
 .funFacts {
     display: table-cell;
     width: 60%;
-    text-align: center;
-    border: dotted red 1px;
-    
+    text-align: center;    
     /* flex-grow: 2; */
 }
 .map {
     display: table-cell;
-    border: 1px dotted red;
     width: 33%;
-    border: dotted red 1px;
     text-align: center;
     /* flex-grow: 1; */
+    vertical-align: middle;
 }
 .map-pic {
     width: 50px;
@@ -225,11 +239,11 @@ footer {
 }
 .flagText {
     position: absolute;
-    top: 25%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* font-size: 42px; */
     
-    font-size: 42px;
-    padding-top: 125px;
+    font-size: 4vw;
+    /* padding-top: 125px; */
 }
