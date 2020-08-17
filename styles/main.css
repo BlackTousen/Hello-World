@@ -44,10 +44,10 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 200px;
     text-align: center;
-    position: relative;
+    /* position: absolute; */
     /* background-color: bisque; */
+    font-size: 5vw;
 
 }
 .bannerText {
@@ -163,20 +163,34 @@ footer {
     width: 100%;
 }
 .citiesSection {
+    /* width: 100%; */
     text-align: center;
-    border: black 2px double;
+    border: #2b3a67 2px double;
     padding-bottom: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: #2b3a67;
+    color: #F6D4CB;
 }
 .cities {
+    list-style: none;
+    /* display:inline; */
+    /* background-color: bisque; */
+    /* border: black 2px solid; */
     display: inline;
     text-align: center;
 }
-.cities li { 
+.cities li {
     display: inline;
+    margin: 5%;
+    font-weight: bold;
+ /* background-color: bisque; */
+
     text-align: center;
 }
+/* .cities li:hover {
+
+} */
 .famousPeeps {
     display: table-cell;
     width: 33%;
@@ -211,9 +225,11 @@ footer {
 }
 .flagText {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* font-size: 42px; */
+    
     font-size: 42px;
     padding-top: 125px;
 }
