@@ -193,19 +193,12 @@ h3 {
     display: inline;
     margin: 5%;
     font-weight: bold;
-<<<<<<< HEAD
  /* background-color: bisque; */
     font-family: Optima, sans-serif;
     text-align: center;
     letter-spacing: 2px;
 
 }
-=======
- background-color: bisque;
-
-    text-align: center;
-} */
->>>>>>> 34c127bee11deff22f2b4fd93e1be93ec05051df
 /* .cities li:hover {
 
 } */
@@ -228,6 +221,7 @@ h3 {
     text-align: center;
     /* flex-grow: 1; */
     vertical-align: middle;
+    position: relative;
 }
 .map-pic {
     width: 50px;
@@ -246,4 +240,12 @@ h3 {
     
     font-size: 4vw;
     /* padding-top: 125px; */
+}
+.citiesSection-header {
+    background-color: #2b3a67;
+}
+.map-header {
+    position: absolute;
+    top: 0;
+    width: 80%;
 }
