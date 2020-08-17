@@ -214,6 +214,7 @@ footer {
     border: dotted red 1px;
     text-align: center;
     /* flex-grow: 1; */
+    vertical-align: middle;
 }
 .map-pic {
     width: 50px;
@@ -225,11 +226,11 @@ footer {
 }
 .flagText {
     position: absolute;
-    top: 25%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* font-size: 42px; */
     
-    font-size: 42px;
-    padding-top: 125px;
+    font-size: 4vw;
+    /* padding-top: 125px; */
 }
