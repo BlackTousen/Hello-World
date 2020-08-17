@@ -26,8 +26,8 @@ figure:hover {
 figcaption {
     background: #ddd;
     width: 75%;
-    position: relative;
-    top: -18%;
+    position: absolute;
+    bottom: 2%;
     opacity: .8;
     transition: .5s;
     font-family: Optima, sans-serif;
