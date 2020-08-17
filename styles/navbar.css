@@ -4,14 +4,15 @@
 .header {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column; 
     background-color: #F6D4CB;
     border: double 1px black;
     margin: 0;
     padding: 0;
-    height: 100px;
+    /* height: 100px; */
     width: auto;
-    align-items: center;
-    align-content: space-between;
+    /* align-items: center; */
+    justify-content: center;
     /* text-align: right; */
 }
 
@@ -20,22 +21,33 @@
     height: 20px;
 }
 
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
     background-color: #F6D4CB;
-    width: 10%;
+    width: 100px;
     height: auto;
-    float: inline-start;
+    text-align: center;
 }
+
 h1 {
-    display: inline-block;
-    float: left;
+    /* display: inline-block; */
+    /* float: left; */
     padding: 1px;
     font-size: 1em;
 }
 
+.navDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
 .nav {
     list-style-type: none;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 0;
     padding: 0;
 }
