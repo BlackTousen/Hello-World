@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lúcuma Travel Service</title>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/thailand.css">
     <link rel="stylesheet" href="styles/newzealand.css">
+    <link rel="stylesheet" href="styles/japan.css">
     <link rel="stylesheet" href="styles/navbar.css">
 
 
@@ -16,22 +18,27 @@
 <body class="background">
     <main>
         <div class="header">
-            <header>
-            <div class="headerBar">
-                <img src="images/lucuma-logo-200x200.png" alt="Lúcuma Logo" class="logo">
-                <h1>Lúcuma Travel Service</h1>
-                <div class="navDiv">
-                    <nav>Places We Offer:
-                    <ul class="nav">
-                        <li class="button button1"><a href="index.html">Chile</a></li>
-                        <li class="button button2"><a href="japan.html">Japan</a></li>
-                        <li class="button button3"><a href="newzealand.html">New Zealand</a></li>
-                        <li class="button button4 navItemActiveThailand"><a href="thailand.html">Thailand</a></li>
-                    </ul>
-                </nav>
+            <!-- <header> -->
+            <!-- <div class="headerBar"> -->
+                <div id="logo">
+                    <img src="images/lucuma-logo-200x200.png" alt="Lúcuma Logo" class="logo">
                 </div>
-            </div>
-        </header>
+                <div>
+                    <h1>Lúcuma Travel Service: Just Explore</h1>
+                </div>
+                <!-- <div class="navDiv"> -->
+                    <nav class="navDiv">
+                        <ul class="nav">
+                            <!-- <li>Places We Offer:</li> -->
+                            <li><button onclick="location.href='index.html'" type=button class="button button1">Chile</button></li>
+                            <li><button onclick="location.href='japan.html'" type="button" class="button button2">Japan</button></li>
+                            <li><button onclick="location.href='newzealand.html'" type="button" class="button button3">New Zealand</button></li>
+                            <li><button onclick="location.href='thailand.html'" type="button" class="button button4 navItemActiveThailand">Thailand</button></li>
+                        </ul>
+                    </nav>
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- </header> -->
         </div>
         <div class="bannerDiv">
             <section class="banner">
