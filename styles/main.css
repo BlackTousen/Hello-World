@@ -172,11 +172,11 @@ footer {
     background-color: #2b3a67;
     color: #F6D4CB;
 }
-.cities {
+/* .cities {
     list-style: none;
-    /* display:inline; */
-    /* background-color: bisque; */
-    /* border: black 2px solid; */
+    display:inline;
+    background-color: bisque;
+    border: black 2px solid;
     display: inline;
     text-align: center;
 }
@@ -184,10 +184,10 @@ footer {
     display: inline;
     margin: 5%;
     font-weight: bold;
- /* background-color: bisque; */
+ background-color: bisque;
 
     text-align: center;
-}
+} */
 /* .cities li:hover {
 
 } */
