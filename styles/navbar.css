@@ -7,42 +7,47 @@
     flex-direction: column; 
     background-color: #F6D4CB;
     border: double 1px black;
-    margin: 0;
+    margin: ;
     padding: 0;
-    /* height: 100px; */
+    height: 20vh;
     width: auto;
     /* align-items: center; */
     justify-content: center;
     /* text-align: right; */
 }
 
-.headerBar{
+/* .headerBar{
     width: 90%;
     height: 20px;
-}
+} */
 
 #logo {
     display: flex;
     justify-content: center;
+    background-color: #F6D4CB;
+    width: auto;
+    height: 100%;
+    text-align: center;
 }
 
 .logo {
     background-color: #F6D4CB;
-    width: 100px;
-    height: auto;
-    text-align: center;
+    width: auto;
+    height: 100%;
+    
 }
 
 h1 {
-    /* display: inline-block; */
+    font-family: 'La Belle Aurore', cursive;
+    display: flex;
     /* float: left; */
     padding: 1px;
-    font-size: 1em;
+    font-size: 3vw;
 }
 
 .navDiv {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .nav {
@@ -50,10 +55,11 @@ h1 {
     /* display: inline-block; */
     margin: 0;
     padding: 0;
+    /* font-size: 1vw; */
 }
 
 .button {
-    background-color: #00BF93;
+    /* background-color: #00BF93; */
     border: none;
     border-radius: 4px;
     color: white;
@@ -61,10 +67,12 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 2vw;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    height: ;
 }
 
 .button1:hover {
@@ -78,7 +86,7 @@ h1 {
     border: 2px solid #00bf93;
 }
 
-.navItemActiveIndex  {
+.navItemActiveIndex {
     background-color: #00BF93;
     color: white;
 }
@@ -105,7 +113,7 @@ h1 {
     border: 2px solid #00BF93;
 }
   
-.navItemActiveNZ  {
+.navItemActiveNZ {
     background-color: #00BF93;
     color: white;
 }
@@ -121,6 +129,7 @@ h1 {
     border: 2px solid #1DBBCD;
 }
 
-.navItemActiveThailand  {
-    background-color: #1DBBCD
+.navItemActiveThailand {
+    background-color: #1DBBCD;
+    color: white;
 }

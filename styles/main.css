@@ -24,7 +24,7 @@ footer {
 
 }
 .logo {
-    float: left;
+    /* float: left; */
     /* clear: left; */
     width: 10%;
     height: auto;    
@@ -82,9 +82,9 @@ footer {
     transform: translate(-50%, -50%);
     color: white;
 }
-.navDiv {
+/* .navDiv {
     margin-top: 100px;
-}
+} */
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
