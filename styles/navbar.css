@@ -1,0 +1,126 @@
+.background {
+    background-color: #FCF1EE;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    background-color: #F6D4CB;
+    border: double 1px black;
+    margin: 0;
+    padding: 0;
+    /* height: 100px; */
+    width: auto;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: right; */
+}
+
+.headerBar{
+    width: 90%;
+    height: 20px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    background-color: #F6D4CB;
+    width: 100px;
+    height: auto;
+    text-align: center;
+}
+
+h1 {
+    /* display: inline-block; */
+    /* float: left; */
+    padding: 1px;
+    font-size: 1em;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    list-style-type: none;
+    /* display: inline-block; */
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    background-color: #00BF93;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #00bf93;
+    color: white;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #00bf93;
+}
+
+.navItemActiveIndex  {
+    background-color: #00BF93;
+    color: white;
+}
+
+.button2:hover {
+    background-color: #1dbbcd;
+    color: white;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #1dbbcd;
+}
+
+.button3:hover {
+    background-color: #00BF93;
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #00BF93;
+}
+  
+.navItemActiveNZ  {
+    background-color: #00BF93;
+    color: white;
+}
+
+.button4:hover { 
+    background-color: #1DBBCD;
+    color: white;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #1DBBCD;
+}
+
+.navItemActiveThailand  {
+    background-color: #1DBBCD
+}
