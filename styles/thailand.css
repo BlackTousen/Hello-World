@@ -1,0 +1,54 @@
+body {
+  background-color: #CC998D;
+  }
+
+.bottomFlex {
+
+}
+
+a:link {
+  color: black;
+  
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #CC998D;
+
+}
+
+a:active {
+  color: black;
+
+} */
+
+
+h3 {
+  text-align: center;
+  letter-spacing: 3px;
+}
+.famousPeeps { 
+  border-left: 6px solid black;
+  background-color: #1DBBCD;
+  font-family: Optima, sans-serif;
+  text-align: left;
+  /* font-variant: small-caps; */
+  letter-spacing: 2px;
+  margin: .3em;
+  
+}
+
+.funFacts {
+  border-left: 6px solid black;
+  background-color: #1DBBCD;
+  font-family: Optima, sans-serif;
+  text-align: left;
+  /* font-variant: small-caps; */
+  letter-spacing: 2px;
+  margin: .3em;
+
+
+}
