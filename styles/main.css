@@ -162,6 +162,15 @@ footer {
     display:table;
     width: 100%;
 }
+
+h3 {
+    font-family: Optima, sans-serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+
+
+}
+
 .citiesSection {
     /* width: 100%; */
     text-align: center;
@@ -185,8 +194,10 @@ footer {
     margin: 5%;
     font-weight: bold;
  /* background-color: bisque; */
-
+    font-family: Optima, sans-serif;
     text-align: center;
+    letter-spacing: 2px;
+
 }
 /* .cities li:hover {
 
@@ -194,7 +205,6 @@ footer {
 .famousPeeps {
     display: table-cell;
     width: 30%;
-    border: dotted red 1px;
     text-align: center;
     /* flex-grow: 1; */
 }
@@ -202,16 +212,12 @@ footer {
 .funFacts {
     display: table-cell;
     width: 60%;
-    text-align: center;
-    border: dotted red 1px;
-    
+    text-align: center;    
     /* flex-grow: 2; */
 }
 .map {
     display: table-cell;
-    border: 1px dotted red;
     width: 33%;
-    border: dotted red 1px;
     text-align: center;
     /* flex-grow: 1; */
 }

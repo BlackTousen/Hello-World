@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    border: dotted red 1px;
 }
 .landmarks h3 {
     display: block;
@@ -31,6 +30,8 @@ figcaption {
     top: -32%;
     opacity: .8;
     transition: .5s;
+    font-family: Optima, sans-serif;
+ 
 }
 .landmarks-pic {
     width: 100%;
