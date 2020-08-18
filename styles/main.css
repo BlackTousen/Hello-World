@@ -221,6 +221,7 @@ h3 {
     text-align: center;
     /* flex-grow: 1; */
     vertical-align: middle;
+    position: relative;
 }
 .map-pic {
     width: 50px;
@@ -239,4 +240,12 @@ h3 {
     
     font-size: 4vw;
     /* padding-top: 125px; */
+}
+.citiesSection-header {
+    background-color: #2b3a67;
+}
+.map-header {
+    position: absolute;
+    top: 0;
+    width: 80%;
 }
